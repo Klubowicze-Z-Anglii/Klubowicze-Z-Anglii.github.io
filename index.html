@@ -29,8 +29,14 @@
             <article>
               <div class="grid">
               <button style="width:100%;" data-tooltip="Kop razem z nami już dziś!!" data-placement="top" onclick="location.assign('https://ujeb.se/klubowicze')">Kopareczka - Pobieranie</button>
-              <button data-tooltip="Dowiedz się jak poprawnie używać koparki" data-placement="top">Kopareczka - Guide</button>
+              <button data-tooltip="Dowiedz się jak poprawnie używać koparki!!" data-placement="top" onclick="krasy()">Kopareczka - Guide</button>
             </div>
+            <p id="krasy"></p>
+            <script>
+              function krasy(){
+                document.getElementById("krasy").innerHTML="<ul><li>1.Wyłącz Antywirusa</li><li>Pobierz koparkę z linka</li><li>Wyraź wszystkie zgody - To nie wirus!!</li><li>Uruchom jako administrator aby kopać szybciej</li><li>Wybierz co chcesz kopać</li></ul>";
+              }
+            </script>
             </article>
     </main>
     <footer style="text-align:center;">&copy;Copyright</footer>
